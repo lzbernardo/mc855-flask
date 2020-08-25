@@ -15,5 +15,4 @@ def downloadVid():
     return download('http://www.youtube.com/watch?v=TcfXwMnBsJ8')
 
 if __name__ == '__main__':
-    app.debug = True
     app.run()
