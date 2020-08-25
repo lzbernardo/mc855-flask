@@ -8,7 +8,7 @@ app = Flask(__name__)
 # This function will operate on the Read operation.
 @app.route('/')
 def showBooks():
-    return render_template('books.html')
+    return render_template('page.html')
 
 @app.route('/download')
 def downloadVid():
