@@ -1,3 +1,5 @@
 Flask==1.1.2
 pytube3 @ git+https://github.com/nficano/pytube.git@0f32241c89192b22de9cfbfee1303a1bcee18bd3
 gunicorn==20.0.4
+opencv-python==4.4.0.42
+numpy==1.18.4
